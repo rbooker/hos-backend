@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://our.company.com/companyUpdate.schema.json",
+    "type": "object",
+    "properties": {
+      "artist": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 100
+      },
+      "album":{
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 100
+      }
+    },
+    "additionalProperties": false,
+    "required": []
+  }

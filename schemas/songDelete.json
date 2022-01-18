@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://our.company.com/companyUpdate.schema.json",
+    "type": "object",
+    "properties": {
+      "playlistID": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "songID": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "songOrder": {
+        "type": "integer",
+        "minimum": 1
+      } 
+    },
+    "additionalProperties": false,
+    "required": ["playlistID", "songID", "songOrder"]
+  }
